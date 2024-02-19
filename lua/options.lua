@@ -151,11 +151,3 @@ keymap.set({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save fi
 
 -- lazy
 keymap.set("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
-
--- buffers
-keymap.set("n", "<S-h>", "<cmd>bprevious<cr>", { desc = "Prev buffer" })
-keymap.set("n", "<S-l>", "<cmd>bnext<cr>", { desc = "Next buffer" })
-keymap.set("n", "[b", "<cmd>bprevious<cr>", { desc = "Prev buffer" })
-keymap.set("n", "]b", "<cmd>bnext<cr>", { desc = "Next buffer" })
-keymap.set("n", "<leader>bb", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
-keymap.set("n", "<leader>`", "<cmd>e #<cr>", { desc = "Switch to Other Buffer" })
